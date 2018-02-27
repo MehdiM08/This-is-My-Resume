@@ -103,8 +103,14 @@ section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important; } }
 
-.bg-primary {
-  background-color: #2564B7 !important; }
+.bg-primary
+{background: linear-gradient(120deg, #ec5418, #1648c1);
+background-size:400% 400%; 
+animation: BackgroundGradient 7s ease infinite;} 
+@keyframes BackgroundGradient {
+0% {background-position: 0% 50%;}
+50% {background-position: 100% 50%;}
+100% {background-position: 0% 50%;}}
 
 .text-primary {
   color: #2564B7 !important; }
